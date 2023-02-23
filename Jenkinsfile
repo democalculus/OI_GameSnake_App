@@ -3,7 +3,7 @@
 pipeline{
 
   agent{
-     label "javaAgent"
+     label "kubeadmAgent"
        }
 
     options {
