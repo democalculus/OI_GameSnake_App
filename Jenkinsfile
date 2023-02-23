@@ -110,4 +110,4 @@ pipeline{
  //            }
 
    }// stages blocks closed
-}//pipeline closedd
+}//pipeline close
