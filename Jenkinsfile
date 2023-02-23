@@ -3,7 +3,7 @@
 pipeline{
 
   agent{
-     label "javaAgent"
+     label "kubeadmAgent"
        }
 
     options {
@@ -25,7 +25,7 @@ pipeline{
     stages {
       stage('checking.. out codes ') {
           steps {
-                git branch: 'walmart-dev-mss', credentialsId: 'democalculus_github_creds_ID', url: 'https://github.com/eagunuworld/OI_GameSnake_App.git'
+                git branch: 'walmart-dev-mss', credentialsId: 'eagunuworld_github_creds_ID', url: 'https://github.com/eagunuworld/OI_GameSnake_App.git'
                  //git (credentialsId: 'democalculus_github_creds_ID', url: 'https://github.com/democalculus/springboot-dockerimage',branch: 'walmart-dev-mss')
                    }
                 }
